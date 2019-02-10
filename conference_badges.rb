@@ -10,4 +10,4 @@ def batch_badge_creator(array)
   puts badges
 end
 
-batch_badge_creator([1, 2, 3])
+
