@@ -9,5 +9,5 @@ def batch_badge_creator(array)
   array.each {|name| badges < badge_maker(name)}
   puts badges
 end
-  
+
 batch_badge_creator([1, 2, 3])
