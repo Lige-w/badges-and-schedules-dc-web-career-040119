@@ -19,8 +19,8 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-  speakers.each do |name|
+  speakers.each_with_index do |name, index|
     puts badge_maker(name)
+    puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
-  puts assign_rooms(speakers)
 end
