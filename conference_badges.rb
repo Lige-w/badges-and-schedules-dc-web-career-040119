@@ -21,4 +21,5 @@ end
 def printer(speakers)
   speakers.each do |name|
     puts badge_maker(name)
+  end
 end
