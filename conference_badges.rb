@@ -9,5 +9,3 @@ def batch_badge_creator(array)
   array.each {|name| badges << badge_maker(name)}
   puts badges
 end
-
-
